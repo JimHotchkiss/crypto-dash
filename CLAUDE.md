@@ -34,3 +34,5 @@ Each component that fetches owns its own `loading`/`error` state and renders the
 Charts use Chart.js via `react-chartjs-2`; `CoinChart` must `ChartJS.register(...)` the scales/elements it uses, and relies on `chartjs-adapter-date-fns` for the time-scale x-axis.
 
 When adding a new sort option, update both the `<SortSelector>` options and the `switch` in `HomePage` — they are kept in sync manually.
+
+/commit-msg Skill test
