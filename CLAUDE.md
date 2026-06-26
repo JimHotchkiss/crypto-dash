@@ -35,4 +35,3 @@ Charts use Chart.js via `react-chartjs-2`; `CoinChart` must `ChartJS.register(..
 
 When adding a new sort option, update both the `<SortSelector>` options and the `switch` in `HomePage` — they are kept in sync manually.
 
-/commit-msg Skill test
