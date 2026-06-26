@@ -30,11 +30,37 @@ a {
 }
 
 .coin-card {
+  position: relative;
   background-color: #161b22;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #f5c518;
+}
+
+.favorites-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.favorites-toggle input {
+  cursor: pointer;
 }
 
 .coin-card:hover {
